@@ -21,3 +21,7 @@ In CSS, vm is not a standard unit. You might be thinking of vw and vh, which are
 
 
 display flex and display grid -https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+
+
+shadow https://www.codewithharry.com/tutorial/css-shadows/
