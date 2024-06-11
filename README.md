@@ -29,4 +29,9 @@ shadow https://www.codewithharry.com/tutorial/css-shadows/
 
 z index -https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
 
+
+
+if we allign flex box towads center toh wo main axis k according hota haai 
 ![image](https://github.com/Ayush-Tibrewal/ayush_maybe_webd/assets/96817905/e48a67a2-4eef-43eb-b03a-23eb9956a367)
+
+
