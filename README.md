@@ -28,4 +28,6 @@ shadow https://www.codewithharry.com/tutorial/css-shadows/
 
 
 z index -https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
-[flexbox.drawio.pdf](https://github.com/user-attachments/files/15794237/flexbox.drawio.pdf)
+
+
+[flexbox.drawio.jpg](https://github.com/user-attachments/files/15794237/flexbox.drawio.pdf)
