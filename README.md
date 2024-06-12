@@ -38,3 +38,11 @@ if we allign flex box towads center toh wo main axis k according hota haai
 
 gap use hoga flex nad grid mein no padding
 
+```
+.container {
+    display: flex;
+    justify-content: center; /* Aligns items horizontally in the center */
+    align-items: center; /* Aligns items vertically in the center */
+}
+```
+
