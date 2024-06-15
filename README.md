@@ -70,5 +70,18 @@ white-space: nowrap;
 /* Adds an ellipsis (...) to indicate overflowed text */
 text-overflow: ellipsis;
 ```
+```
+/* Positions the element absolutely within the nearest positioned ancestor */
+jis k mein bhi positive relative hogi static nhi hogi usmein uske according hi ye kaam karega 
+    position: absolute;
+     top: 0px;
+     left:3px;
+// it is used to overlap on thing into another
+     z-index: 2000px
+    // it is used to fixed the complete position 
+      /* position: fixed;
+ Exception: transform, filter, or perspective properties can also make an element appear as positioned */
+//https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
+```
 
 
