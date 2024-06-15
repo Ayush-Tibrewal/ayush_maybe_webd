@@ -43,7 +43,9 @@ gap use hoga flex nad grid mein no padding
     display: flex;
     justify-content: center; /* Aligns items horizontally in the center */
     align-items: center; /* Aligns items vertically in the center */
-    align-content : center; // for multiple rows 
+    align-content : center; // for multiple rows
+    flex-wrap: wrap;
+
 }
 ```
 
