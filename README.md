@@ -83,5 +83,16 @@ jis k mein bhi positive relative hogi static nhi hogi usmein uske according hi y
  Exception: transform, filter, or perspective properties can also make an element appear as positioned */
 //https://developer.mozilla.org/en-US/docs/Web/CSS/perspective
 ```
+used to make the fuction
+ :root{
+            --color: rgb(255, 0, 247);
+            }
+color : var(color)
 
-
+```
+jo bhi text hum  kisi buttonn k ander rakhte hai 
+input::placeholder {
+            color: red;
+        }
+<input type="text" placeholder="placeholder color">
+````
