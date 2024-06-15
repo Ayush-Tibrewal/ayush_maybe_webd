@@ -47,3 +47,28 @@ gap use hoga flex nad grid mein no padding
 }
 ```
 
+//is used to hide any content that overflows the boundaries
+overflow: hidden;
+
+1 ,2 ,3 ,4 jp bhi ordered  ya unordered list banate hai uska style ya image add krna 
+list-style: devanagari;
+ list-style-image: url("mccain2.jpg");
+
+```
+/* Hides horizontal overflow content */
+overflow-x: hidden;
+
+/* Adds a vertical scrollbar if content overflows vertically */
+overflow-y: scroll;
+
+/* Adds scrollbars only if content overflows */
+overflow: auto;
+
+/* Prevents text from wrapping to the next line */
+white-space: nowrap;
+
+/* Adds an ellipsis (...) to indicate overflowed text */
+text-overflow: ellipsis;
+```
+
+
