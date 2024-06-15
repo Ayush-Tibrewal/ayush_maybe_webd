@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            /* ager conatiner se eleent overflow ho raha ho toh  */
+            display: flow-root;
+        }
+        .card{
+            border: 2px solid red;
+           
+        }
+        img{
+            float: left;
+        }
+        .card :nth-child(3){
+            /* 3rd child k right maat ajiyo  */
+            clear:right;
+            /* dono side hi nhi hona chahiye */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="image1.png" alt=""  width="100px">
+        <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptas eveniet obcaecati quae quasi! Deserunt blanditiis nam, veniam placeat inventore ratione voluptate. Obcaecati, odit. Tempora laudantium minus facilis est necessitatibus harum impedit, ad quia!
+        </div>
+        <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet neque exercitationem obcaecati cum quos voluptate facere ipsam earum quaerat quo a nihil, eius, ea tenetur veniam eos labore molestias odit commodi officia. Tempore.
+        </div>
+        <div class="card">card3</div>
+    </div>
+
+</body>
+</html>

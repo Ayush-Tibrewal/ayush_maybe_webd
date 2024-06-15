@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{
+        margin :0;
+        padding: 0;
+
+    }
+    .box1{
+        border: 2px solid blue;
+        /* convert krdiya incline mein  */
+        display: inline-block;
+        margin : 2px;
+        padding :2px;
+        
+        /* incline block se padding wager sahi se upar ki side lagegi nhi */
+        
+        /* normal incline se nhi lagegi padding wagera upar */
+    }
+    .box2{
+        border: 2px solid green ;
+    }
+    .box3{
+        /* display: none; */
+        /* visibility: hidden; */
+    }
+
+
+    </style>
+</head>
+<body>
+    <!-- conversion of block level to incline -->
+    <div class="box1 box3">
+        i am a box
+    </div>
+    <span class="box2">
+        i a box too
+    </span>
+    
+</body>
+</html>

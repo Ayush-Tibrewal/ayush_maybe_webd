@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> 
+body{
+    background-color: rgb(235, 181, 247);;
+}
+:root{
+            --color: white;
+            --seccolor: rgb(98, 49, 109); 
+            --defpad: 23px;
+            --defop: 0.4;
+        }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+    .list{
+        list-style: none;
+        display: flex;
+        border: 2px solid var(--seccolor) ;
+        background-color: var(--seccolor);
+       
+    }
+
+    .l{
+        padding:20px 60px;
+        font-size: 19px;
+        font-weight: 400;
+      
+        
+    }
+    .aa{
+        color:var(--color);
+        /* line hata dega jo hyperlink se aati hai */
+        text-decoration: none;
+
+
+    }
+
+
+
+</style>
+<body>
+    <div class="div1">
+    <ul class="list">
+        <li class="l1 l"><a class="aa" href="/">Home </a> </li>
+        <li class="l2 l"><a class="aa" href="/">Contact  </a></li>
+        <li class="l3 l"><a href="/">About </a></li>
+    </ul>
+    </div>
+
+</body>
+</html>
