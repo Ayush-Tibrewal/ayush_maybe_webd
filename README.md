@@ -99,6 +99,6 @@ input::placeholder {
 <input type="text" placeholder="placeholder color">
 ````
 
-##javascript
+## javascript
 var is function-scoped or globally-scoped.
 let is block-scoped  // let is more used in the new convention of java script
