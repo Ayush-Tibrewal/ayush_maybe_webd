@@ -102,3 +102,5 @@ input::placeholder {
 ## javascript
 var is function-scoped or globally-scoped.
 let is block-scoped  // let is more used in the new convention of java script
+
+includes fuction
