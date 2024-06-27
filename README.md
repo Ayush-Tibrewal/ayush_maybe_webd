@@ -118,3 +118,26 @@ and for each button found, it adds an event listener that triggers when that but
 the same event listener attached to it, which displays an alert message when clicked. So, it first selects
  all the buttons with the class "drum" and then adds the event listener to each one sequentially.
 ```
+# constructor in js 
+```
+// Constructor function for creating a Person object
+function Person(name, age, gender) {
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+    
+    // Method to display information about the person
+    this.displayInfo = function() {
+        console.log(`Name: ${this.name}, Age: ${this.age}, Gender: ${this.gender}`);
+    };
+}
+
+// Creating instances of Person using the constructor
+let person1 = new Person('Alice', 30, 'Female');
+let person2 = new Person('Bob', 25, 'Male');
+
+// Using the displayInfo method to show information
+person1.displayInfo(); // Output: Name: Alice, Age: 30, Gender: Female
+person2.displayInfo(); // Output: Name: Bob, Age: 25, Gender: Male
+
+```
