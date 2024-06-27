@@ -104,3 +104,17 @@ var is function-scoped or globally-scoped.
 let is block-scoped  // let is more used in the new convention of java script
 
 includes fuction
+
+
+```
+for(i=0;i<document.querySelectorAll(".drum").length;i++){
+document.querySelectorAll("button")[i].addEventListener("click",function ayush(){
+    alert("you clicked me mf ");
+});
+}
+
+Yes, exactly. Your code iterates through all elements with the class "drum" (which are presumably buttons in your case),
+and for each button found, it adds an event listener that triggers when that button is clicked. This way, every button gets
+the same event listener attached to it, which displays an alert message when clicked. So, it first selects
+ all the buttons with the class "drum" and then adds the event listener to each one sequentially.
+```
