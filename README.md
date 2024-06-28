@@ -141,3 +141,13 @@ person1.displayInfo(); // Output: Name: Alice, Age: 30, Gender: Female
 person2.displayInfo(); // Output: Name: Bob, Age: 25, Gender: Male
 
 ```
+When you use console.log(event) in a keydown event listener, it will log the entire event object 
+to the browser's console. This object contains a wide range of properties and methods that provide 
+detailed information about the event that occurred. Here’s what you can expect to see when you log the event object to the console:
+```
+
+document.addEventListener('keydown', function(event) {
+    console.log(event.keyCode); // Logs the key code, e.g., 13 for "Enter", 65 for "a"
+});
+```
+
