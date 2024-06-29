@@ -150,4 +150,8 @@ document.addEventListener('keydown', function(event) {
     console.log(event.keyCode); // Logs the key code, e.g., 13 for "Enter", 65 for "a"
 });
 ```
-
+```
+$(".btn").click(function() {
+    var clickedColor = $(this).attr('id'); 
+    handler(clickedColor) ;
+```
