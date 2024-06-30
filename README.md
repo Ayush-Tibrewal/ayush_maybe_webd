@@ -155,3 +155,10 @@ $(".btn").click(function() {
     var clickedColor = $(this).attr('id'); 
     handler(clickedColor) ;
 ```
+# time out 
+```
+setTimeout(function () {
+            $("body").removeClass("game-over");
+        }, 200);
+
+```
