@@ -162,3 +162,14 @@ setTimeout(function () {
         }, 200);
 
 ```
+
+## key press 
+```
+$(document).keypress(function () {
+    if (!gameStarted) {
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        gameStarted = true;
+    }
+});
+```
