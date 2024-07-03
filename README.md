@@ -141,6 +141,20 @@ person1["name"]; is same as person1.name
 person1.displayInfo(); // Output: Name: Alice, Age: 30, Gender: Female
 person2.displayInfo(); // Output: Name: Bob, Age: 25, Gender: Male
 
+
+  console.log("Original Object:", obj);
+// object ki key miljati hai 
+Object.keys()
+//value mil jaati hai 
+Object.values()
+//ye key and value alag alag arrays mein dal dete hai 
+Object.entries()
+
+
+  let newObj = Object.assign({}, obj, { newProperty: "newValue" });
+  console.log("After Object.assign():", newObj);
+}
+
 ```
 When you use console.log(event) in a keydown event listener, it will log the entire event object 
 to the browser's console. This object contains a wide range of properties and methods that provide 
@@ -174,3 +188,28 @@ $(document).keypress(function () {
     }
 });
 ```
+there is premade daqta class in js 
+where you can you so many mmethods and use it for yourself
+
+```
+let currentDate = new Date();
+console.log(currentDate);
+.getMonth
+.getHour
+.getTime
+```
+// hum class ko string bana kr bhejte hai kyuki kahi kahi class nhi hoti toh usko string bana dete hai toh, wapis class mein bannae k 
+hum parese use krte hai hai 
+# jsom
+const sampleJSONString =
+  '{"key": "value", "number": 42, "nested": {"nestedKey": "nestedValue"}}';
+//and normal class ko string mein dena ho toh stringify use krte hai 
+  // Parsing JSON string to JavaScript object
+  let parsedObject = JSON.parse(jsonString);
+  
+
+  
+  let jsonStringified = JSON.stringify(parsedObject);
+  console.log("After JSON.stringify():", jsonStringified);
+
+
