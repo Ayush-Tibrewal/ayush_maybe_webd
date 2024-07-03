@@ -137,6 +137,7 @@ let person1 = new Person('Alice', 30, 'Female');
 let person2 = new Person('Bob', 25, 'Male');
 
 // Using the displayInfo method to show information
+person1["name"]; is same as person1.name
 person1.displayInfo(); // Output: Name: Alice, Age: 30, Gender: Female
 person2.displayInfo(); // Output: Name: Bob, Age: 25, Gender: Male
 
