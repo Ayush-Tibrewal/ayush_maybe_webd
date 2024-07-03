@@ -155,6 +155,11 @@ Object.entries()
   console.log("After Object.assign():", newObj);
 }
 
+class Animal {
+  constructor(name, legCount) {
+    this.name = name
+    this.legCount = legCount
+  }
 ```
 When you use console.log(event) in a keydown event listener, it will log the entire event object 
 to the browser's console. This object contains a wide range of properties and methods that provide 
