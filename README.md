@@ -245,6 +245,10 @@ const sampleJSONString =
      for (let char of str) {
        console.log(char);  // Output: 'H', 'e', 'l', 'l', 'o'
      }
+
+     let arr = [1, 2, 3, 4, 5];
+arr.splice(2, 1); // Start at index 2, remove 1 element
+console.log(arr); // Output: [1, 2, 4, 5]
      ```
 
 **Key Differences**:
