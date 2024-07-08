@@ -256,5 +256,6 @@ console.log(arr); // Output: [1, 2, 4, 5]
 - **Usage**: `in` is used with objects and arrays to check existence, whereas `of` is used with iterable objects to iterate over their values.
 
 Understanding these differences helps in correctly applying these operators depending on the task at hand—whether you need to check for existence or iterate over values.
-
+setInterval
+Purpose: To repeatedly execute a function at specified intervals.
 
