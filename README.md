@@ -259,3 +259,30 @@ Understanding these differences helps in correctly applying these operators depe
 setInterval
 Purpose: To repeatedly execute a function at specified intervals.
 
+# write in a file operations
+```
+const fs = require('fs');
+
+const content = 'Hello, World!';
+
+fs.writeFile('example.txt', content, (err) => {
+    if (err) {
+        console.error('Error writing file:', err);
+    } else {
+        console.log('File written successfully');
+    }
+});
+
+const fs = require('fs').promises;
+
+const content = 'Hello, World!';
+
+fs.writeFile('example.txt', content)
+    .then(() => {
+        console.log('File written successfully');
+    })
+    .catch((err) => {
+        console.error('Error writing file:', err);
+    });
+
+```
