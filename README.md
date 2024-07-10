@@ -288,6 +288,20 @@ fs.writeFile('example.txt', content)
     });
 
 ```
+// if it is not exist it will initialise with 1 
+let numberOfRequestsForUser = {}; // Initialize an empty object to track user requests
+
+if (numberOfRequestsForUser[userid]) { // Check if the user has made previous requests
+    numberOfRequestsForUser[userid] = numberOfRequestsForUser[userid] + 1; // Increment the user's request count
+
+
+    Here's a brief explanation of the corrected code:
+
+req.query.kidneyid retrieves the value of the kidneyid query parameter from the URL.
+req.header('usernam') retrieves the value of the usernam header from the request.
+To ensure correctness and compatibility with Express.js, always use req.header('header-name') to access request headers.
+
+
 # promises 
 ```
 ```
