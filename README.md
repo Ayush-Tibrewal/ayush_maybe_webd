@@ -203,6 +203,8 @@ console.log(currentDate);
 .getHour
 .getTime
 ```
+# Json stringfy 
+```
 // hum class ko string bana kr bhejte hai kyuki kahi kahi class nhi hoti toh usko string bana dete hai toh, wapis class mein bannae k 
 hum parese use krte hai hai 
 # jsom
@@ -217,7 +219,7 @@ const sampleJSONString =
   let jsonStringified = JSON.stringify(parsedObject);
   console.log("After JSON.stringify():", jsonStringified);
 
-
+```
 
   In JavaScript, `in` and `of` are both operators used in different contexts:
 
