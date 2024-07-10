@@ -288,3 +288,6 @@ fs.writeFile('example.txt', content)
     });
 
 ```
+# promises 
+```
+```
