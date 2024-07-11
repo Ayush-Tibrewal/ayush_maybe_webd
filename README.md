@@ -306,7 +306,9 @@ req.query.kidneyid retrieves the value of the kidneyid query parameter from the 
 req.header('usernam') retrieves the value of the usernam header from the request.
 To ensure correctness and compatibility with Express.js, always use req.header('header-name') to access request headers.
 
-
-# promises 
 ```
+imput mein kuch text likhenge toh oninput fuction call krdega like on click 
+<input oninput="ayush()" id ="second" type="text" placeholder="time">
+    <button onclick="ayush()"> calculate sum</button>
+
 ```
