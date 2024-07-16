@@ -312,3 +312,13 @@ imput mein kuch text likhenge toh oninput fuction call krdega like on click
     <button onclick="ayush()"> calculate sum</button>
 
 ```
+```
+When you define headers({ title }), you are saying that the headers function expects an object as its argument, and 
+you want to extract the title property from that object and directly assign it to a variable called titl
+
+function headers({ title }) {
+  return <div> 
+    {title}
+  </div>
+}
+```
