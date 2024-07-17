@@ -322,3 +322,28 @@ function headers({ title }) {
   </div>
 }
 ```
+
+```
+ // fetch is returning the promise
+        function getAnimalDataOld() {
+            fetch("https://fakerapi.it/api/v1/persons")
+                .then(function (response) {
+                    // response.json() is also giving promise pending 
+                    // hence we have to make it await as well 
+                    response.json()
+                        .then(function (finaldata) {
+                            console.log(finaldata)
+                        })
+                })
+        }
+
+        // same function in the async/await format
+        async function getAnimalData() {
+            const response = await fetch("https://fakerapi.it/api/v1/persons");
+            const finaldata = await response.json();
+            console.log(finaldata);
+            document.getElementById("ayush").innerHTML = JSON.stringify(finaldata.data);
+        }
+    </script>
+
+```
